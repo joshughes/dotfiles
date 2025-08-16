@@ -1,0 +1,13 @@
+# Case-insensitive and smarter completion
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set menu-complete-display-prefix on
+set colored-stats on
+
+# History search with Up/Down arrows
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Better bell
+set bell-style visible
+

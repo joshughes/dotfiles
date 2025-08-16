@@ -1,0 +1,19 @@
+[color]
+  ui = auto
+
+[init]
+  defaultBranch = main
+
+[pull]
+  ff = only
+
+[fetch]
+  prune = true
+
+[alias]
+  lg = log --oneline --graph --decorate --all
+
+# Optionally include a local file for secrets like name/email (not required)
+[includeIf "gitdir:~/.gitconfig.local.exists/"]
+  path = ~/.gitconfig.local
+

@@ -1,0 +1,16 @@
+add_newline = false
+command_timeout = 1000
+
+[character]
+success_symbol = "➜"
+error_symbol = "✗"
+vicmd_symbol = "❮"
+
+[git_branch]
+symbol = " "
+truncation_length = 48
+style = "bold purple"
+
+[git_status]
+disabled = false
+
