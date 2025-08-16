@@ -36,8 +36,8 @@ install_starship() {
   fi
 
   log "Installing Starship to ~/.local/bin…"
-  # Official installer, non-interactive, no sudo. See: https://starship.rs
-  curl -fsSL https://starship.rs/install.sh | bash -s -- -y -b "$HOME/.local/bin"
+  # Official installer expects POSIX sh, not bash. See: https://starship.rs
+  curl -fsSL https://starship.rs/install.sh | sh -s -- -y -b "$HOME/.local/bin"
 }
 
 wire_shell_init() { :; }
