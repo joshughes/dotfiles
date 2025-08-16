@@ -21,11 +21,11 @@ truncate_to_repo = false
 style = "bold cyan"
 
 [hostname]
-ssh_only = false
+ssh_only = true
 style = "bold green"
 
 [username]
-show_always = true
+show_always = false
 style = "bold yellow"
 
 [time]
@@ -40,13 +40,13 @@ show_milliseconds = true
 style = "bold red"
 
 [memory_usage]
-disabled = false
+disabled = true
 threshold = 70
 symbol = " "
 style = "bold dimmed blue"
 
 [battery]
-disabled = false
+disabled = true
 full_symbol = "🔋"
 charging_symbol = "⚡"
 discharging_symbol = "🔌"
@@ -59,12 +59,12 @@ number_threshold = 1
 style = "bold magenta"
 
 [package]
-disabled = false
+disabled = true
 symbol = "📦 "
 style = "bold green"
 
 [os]
-disabled = false
+disabled = true
 style = "bold blue"
 
 [line_break]
