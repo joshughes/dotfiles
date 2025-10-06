@@ -12,5 +12,5 @@ if command -v starship >/dev/null 2>&1; then
   eval "$(starship init zsh)"
 fi
 
-export HISTFILE=/commandhistory/.bash_history
+export HISTFILE=/commandhistory/.zsh_history
 export HISTFILESIZE=20000
